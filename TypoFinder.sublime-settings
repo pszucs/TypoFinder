@@ -1,0 +1,17 @@
+{
+	"typo_on_save": true,
+	"auto_correct": true,
+    "dictionary": [
+        {"udpate": "update"},
+        {"isnert": "insert"},
+        {"resutls": "results"},
+        {"uknown": "unknown"},
+        {"Foreame": "Forename"},
+        {"acount": "account"},
+        {"accoutn": "account"},
+        {"validatoin": "validation"},
+        {"vlidation": "validation"},
+        {"resposne": "response"},
+        {"bakcground": "background"}
+    ]
+}
