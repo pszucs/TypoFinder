@@ -21,7 +21,7 @@ Find and replace common typos when saving files.
 Open `Packages / TypoFinder / TypoFinder.sublime-settings` and change these if necessary.
 Change the `typo_on_save` to `false` to turn the plugin off.
 If `auto_correct` is enabled (true) the plugin will automatically fix the typo (you'll see a dialog to confirm each action).
-Add you own typos to the `dictionary` list. The key is the typo, the value is the string which the typo is to be replaced with.
+Add your own typos to the `dictionary` list. The key is the typo, the value is the string which the typo is to be replaced with.
 
 ## Usage
 Just save your file and watch the magic happen.
