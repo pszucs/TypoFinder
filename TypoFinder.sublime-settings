@@ -1,6 +1,6 @@
 {
-	"typo_on_save": true,
-	"auto_correct": true,
+    "typo_on_save": true,
+    "auto_correct": true,
     "dictionary": [
         {"udpate": "update"},
         {"isnert": "insert"},
@@ -12,6 +12,16 @@
         {"validatoin": "validation"},
         {"vlidation": "validation"},
         {"resposne": "response"},
-        {"bakcground": "background"}
+        {"bakcground": "background"},
+        {"serminar": "seminar"},
+        {"attrbitute": "attribute"},
+        {"requried": "required"},
+        {"surename": "surname"},
+        {"emial": "email"},
+        {"$$": "$"},
+        {"','": "', '"},
+        {":'": ": '"},
+        {"){": ") {"},
+        {"(!": "( !"}
     ]
 }

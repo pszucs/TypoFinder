@@ -14,7 +14,7 @@ SETTINGS_FILE = 'TypoFinder.sublime-settings'
 class TypoFinder(sublime_plugin.EventListener):
     def on_post_save(self, view):
         global_settings = sublime.load_settings(SETTINGS_FILE)
-        should_run = global_settings.get('typo_on_save')
+        should_run = global_settings.get('typo_on_save') and SETTINGS_FILE not in view.file_name()
         auto_correct = global_settings.get('auto_correct')
         dictionary = global_settings.get("dictionary")
         
